@@ -1,0 +1,25 @@
+Problem 3:
+
+The suggested int starTime = System.currentTimeMillis(); endTime = System.currentTimeMillis(); methods were too slow to track the timing of the code fragments, so instead I tracked it in nano seconds with System.nanoTime(). The results were as following:
+
+Function 1:
+n = 100		timing = 36790 nanoseconds
+n = 500		timing = 95112 nanoseconds
+n = 1000	timing = 255631 nanoseconds
+n = 10000	timing = 1433438 nanoseconds
+
+Function 2
+n = 100		timing = 47778 nanoseconds
+n = 500		timing = 894487 nanoseconds
+n = 1000	timing = 2016938 nanoseconds
+n = 10000	timing = 5161118 nanoseconds
+
+foo
+k is always = 2
+
+n = 100		timing = 4798 nanoseconds
+n = 500		timing = 2863 nanoseconds
+n = 1000	timing = 2916 nanoseconds
+n = 10000	timing = 3590 nanoseconds
+
+I believe that the results reflect my predictions with the Big O analysis.
